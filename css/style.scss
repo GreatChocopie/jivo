@@ -7,6 +7,7 @@ $color-grey0: #FFFFFF;
 $color-grey2: #252f3f;
 $color-grey3: #424244;
 $color-grey4: #86868b;
+$color-grey4:#333333;
 $color-blue1: #d3eae4;
 $color-green1: #6dd402;
 
@@ -17,8 +18,9 @@ body {
       margin: 0;
       padding: 0;
       background-color: $color-grey0;
-      color: $color-grey1;
       overflow-x: hidden;
+      font-size: 19px;
+      color: $color-grey4;
 }
 
 
@@ -26,6 +28,8 @@ img {
       max-width: 100%;
       height: auto;
 }
+
+
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -151,22 +155,18 @@ input[type="radio"].visually-hidden {
 
 .main-header__container {
       max-width: 1500px;
-      margin: 0 auto;
-      padding: 0 10px;
-}
-
-.main-header__top {
-      padding: 50px 0 500px 0;
+      padding: 50px 10px 400px 10px;
       margin: 0 auto 90px auto;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      // background-image: url(../img/bg.svg);
-      // background-repeat: no-repeat;
-      // background-size: 100% auto;
-      // background-position: center;
+      background-image: url(../img/vis-header.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: bottom center;
 }
+
 
 .main-header__headline {
       width: 900px;
@@ -175,6 +175,7 @@ input[type="radio"].visually-hidden {
       text-align: center;
       font-size: 72px;
       font-weight: 600;
+      color: $color-grey1;
 }
 
 .main-header__messengeres-container {
@@ -258,10 +259,10 @@ input[type="radio"].visually-hidden {
 
 .advantage__headline {
       padding: 0;
-      margin: 0 15px 0 0;
-      font-size: 48px;
+      margin: 0 0 15px 0;
+      font-size: 54px;
       color: $color-grey1;
-      font-weight: 600;
+      font-weight: 500;
 }
 
 .main__advantages {
@@ -341,7 +342,7 @@ input[type="radio"].visually-hidden {
 }
 
 .advantage-3__text {
-      width: 600px;
+      width: 660px;
 }
 
 .advantage-3__text-list {
@@ -429,17 +430,69 @@ input[type="radio"].visually-hidden {
 }
 
 .advantage-4__text-container {
-      width: 430px;
+      width: 440px;
       padding: 0;
       margin: 0;
       display: flex;
       flex-direction: column;
 }
 
-.advantage-4__img-container {
-      width: 555px;
+.advantage-4__text-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
 }
 
+.advantage-4__text-item {
+      padding: 0 0 5px 0;
+}
+
+.advantage-4__button-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+}
+
+.advantage-4__button-apps {
+      padding: 0;
+      margin: 0 0 35px 0;
+      width: 215px;
+      height: 60px;
+      background-image: url(../img/apple.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+}
+
+.advantage-4__button-gp {
+      padding: 0;
+      margin: 0;
+      width: 215px;
+      height: 60px;
+      background-image: url(../img/google.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+}
+
+.advantage-4__img-container {
+      width: 490px;
+      display: flex;
+      flex-direction: column;
+}
+
+.advantage-4__big-img {
+      width: 100%;
+      height: 605px;
+      margin-bottom: 50px;
+}
+
+.advantage-4__img {
+      width: 260px;
+      height: 50px;
+      margin-left: auto;
+}
 
 
 
