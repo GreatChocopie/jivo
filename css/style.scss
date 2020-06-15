@@ -741,11 +741,27 @@ input[type="radio"].visually-hidden {
 .advantage-6__text-container {
       width: 980px;
       padding: 0;
-      margin: 0 0 50px 0;
+      margin: 0 0 30px 0;
       display: flex;
       flex-direction: column;
 }
 
+.advantage-6__carts-container {
+      width: 980px;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+.advantage-6__cart {
+      margin-bottom: 30px;
+      width: 300px;
+      height: 420px;
+      border-radius: 8px;
+      background-color: #ecf2fe;
+}
 
 
 .advantage-7 {
@@ -763,9 +779,28 @@ input[type="radio"].visually-hidden {
       margin: 0 0 50px 0;
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
 }
 
+.advantage-7__text {
+      padding: 0;
+      margin: 0 0 15px 0;
+      width: 825px;
+      line-height: 1.5;
+}
 
+.advantage-7__text-button {
+      min-width: 170px;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: auto 0;
+      background-color: $color-grey1;
+      font-size: 16px;
+      font-weight: 500;
+      color: $color-grey0;
+      border-radius: 8px;
+      text-align: center;
+}
 
 
 .main__feedback {
@@ -779,10 +814,11 @@ input[type="radio"].visually-hidden {
 
 .feedback__headline {
       padding: 0;
-      margin: 0 15px 0 0;
-      font-size: 48px;
+      margin: 0 0 15px 0;
+      font-size: 54px;
       color: $color-grey1;
-      font-weight: 600;
+      font-weight: 500;
+      line-height: 1.1;
 }
 
 .feedback__text-container {
@@ -791,6 +827,13 @@ input[type="radio"].visually-hidden {
       margin: 0 0 80px 0;
       display: flex;
       flex-direction: column;
+}
+
+.feedback__text {
+      padding: 0;
+      margin: 0 0 15px 0;
+      width: 800px;
+      line-height: 1.5;
 }
 
 .feedback__comment-container {
@@ -828,10 +871,12 @@ input[type="radio"].visually-hidden {
 }
 
 .tester__text {
-      width: 445px;
+      width: 470px;
       padding: 0;
       margin: 0 0 40px 0;
       text-align: center;
+      font-size: 19px;
+      line-height: 1.5;
 }
 
 .tester__try-button {
@@ -874,9 +919,9 @@ input[type="radio"].visually-hidden {
 .footer__column-headline {
       padding: 0;
       margin: 0 0 15px 0;
-      font-size: 15px;
+      font-size: 16px;
       font-weight: 600;
-      color: $color-grey3;
+      color: $color-grey4;
 }
 
 .footer__column-list {
@@ -894,7 +939,7 @@ input[type="radio"].visually-hidden {
 .column-list__link {
       text-decoration: none;
       font-size: 15px;
-      color: $color-grey4;
+      color: $color-grey2;
 }
 
 .footer__button-container {
