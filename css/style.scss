@@ -824,7 +824,7 @@ input[type="radio"].visually-hidden {
 .feedback__text-container {
       width: 980px;
       padding: 0;
-      margin: 0 0 80px 0;
+      margin: 0 0 50px 0;
       display: flex;
       flex-direction: column;
 }
@@ -836,13 +836,52 @@ input[type="radio"].visually-hidden {
       line-height: 1.5;
 }
 
-.feedback__comment-container {
+.feedback__comments-container {
+      padding: 70px 10px 35px 10px;
+      box-sizing: border-box;
       width: 100%;
       height: 1230px;
       border-radius: 10px;
       background-image: linear-gradient(309deg, #f9f9f9 96%, #fceee0 11%);
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+
 }
 
+.feedback__comment-wrapper {
+      // min-width: 300px;
+      max-width: 470px;
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 50px;
+      box-sizing: border-box;
+      margin-bottom: 100px;
+      align-items: center;
+}
+
+.feedback__comment {
+      width: 100%;
+      padding: 0;
+      margin: 0 0 20px 0;
+      font-style: italic;
+      line-height: 1.19;
+      font-size: 24px;
+      font-weight: bold;
+      color: $color-grey1;
+}
+
+.feedback__comment-author {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.4;
+      color: $color-grey4;
+}
 
 .main__tester {
       width: 980px;
